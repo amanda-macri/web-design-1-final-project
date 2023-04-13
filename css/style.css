@@ -1,1 +1,164 @@
-/*links*/
+html {
+    box-sizing: border-box;
+    }
+    *, *::before, *::after {
+    box-sizing: inherit;
+    }
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font: size 110%;
+
+}
+nav {
+    background-color:#0E1215;
+    box-sizing: border-box;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.wrapper {
+    width: 1280px;
+}
+a:link {
+    color: aliceblue;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:hover {
+    color: rgb(235, 83, 28);
+    text-decoration: dashed;
+}
+
+a:active {
+    color: cyan;
+}
+
+.navimg {
+    width: 100%;
+    display: block;
+}
+
+.aboutme img {
+    float: right;
+    width: 550px;
+    margin-top: -3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.aboutme p {
+    box-sizing: border-box;
+    padding-right: 10rem
+}
+
+.aboutme {
+    box-sizing: border-box;
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+    margin-left: 2rem;
+}
+
+.logocreate {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.webdes {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.fullbrand {
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 2px;
+    background-color:#ffffff;
+    
+}
+
+.serbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    margin-left: 2rem;
+}
+
+.services {
+    margin: 0;
+    background-color: #FAFAFA;
+}
+
+.services h2 {
+    text-align: center;
+} 
+
+.logo{
+    width: 30px;
+}
+
+.mywork {
+    text-align: center;
+}
+
+.mywork > p {
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.reviews {
+    background-color: black;
+    color: #ffffff;
+}
+
+.oneres {
+    box-sizing: border-box;
+    margin: 5rem;
+    padding: 3rem;
+}
+
+.twores {
+    box-sizing: border-box;
+    margin: 5rem;
+    padding: 3rem;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews > h2 {
+    text-align: center;
+}
+
+.motto {
+    text-align: center;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.contactme > p {
+    text-align: center;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.workimg {
+    display: flex;
+    flex-wrap: wrap;
+}

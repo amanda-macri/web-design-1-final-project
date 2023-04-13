@@ -30,15 +30,15 @@ If you would like to swap out images and content to showcase your work (which I 
 ## Requirements:
 - Create a separate folder for your CSS file DONE
 - Use a Google font of your choice for the webpage. If you are not interested in sourcing one or adding a personal touch, you can use 'Open Sans' - bold and regular.
-- The maximum width of the container is 1280px. This would be applied to each section (preferably using a reusable class like 'wrapper').
+- The maximum width of the container is 1280px. This would be applied to each section (preferably using a reusable class like 'wrapper'). DONE
 - Color values used in the layout: #0E1215, #FAFAFA #000 and white
 - You can choose font sizes (remember to set as rem)
 - You are also free to decide on margin and padding; just keep it consistent
 - Use of CSS Grid properties for a minimum of one element
-- Use of CSS Flexbox properties for a minimum of one element
+- Use of CSS Flexbox properties for a minimum of one element DONE
 - Follow proper folder structure and naming conventions
 - Demonstrate semantic HTML using appropriate elements for your content
-- Use jump links to bring user down to correct section when clicked in the navigation
+- Use jump links to bring user down to correct section when clicked in the navigation DONE
 - Correctly apply CSS properties (Google font, background colors, font color, font sizes, etc..)
 - Apply default, visited, hover and focus states for links
 - Apply accessibility features where required (ex. landmark roles, alt attribute, aria-label, etc..)
