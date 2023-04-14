@@ -8,8 +8,8 @@ html {
 html {
     font-family: 'Open Sans', sans-serif;
     font: size 110%;
-
 }
+
 nav {
     background-color:#0E1215;
     box-sizing: border-box;
@@ -24,21 +24,21 @@ nav {
 .wrapper {
     width: 1280px;
 }
-a:link {
-    color: aliceblue;
+
+a.button:link {
+    color: white
 }
 
-a:visited {
-    color: deeppink;
+a.button:visited {
+    color: white
 }
 
-a:hover {
-    color: rgb(235, 83, 28);
-    text-decoration: dashed;
+a.button:hover {
+    color:white ;
 }
 
-a:active {
-    color: cyan;
+a.button:active {
+    color: white;
 }
 
 .navimg {
@@ -107,8 +107,10 @@ a:active {
     text-align: center;
 } 
 
-.logo{
+.logo > a{
     width: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 .mywork {
@@ -161,4 +163,12 @@ a:active {
 .workimg {
     display: flex;
     flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color:#0E1215;
+    box-sizing: border-box;
+    padding: .25px;
 }
