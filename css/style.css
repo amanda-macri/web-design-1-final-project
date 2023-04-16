@@ -14,13 +14,25 @@ nav {
     background-color:#0E1215;
     box-sizing: border-box;
     padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+.button {
+    list-style-type: none;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
 
+}
+
+.button > li {
+    box-sizing: border-box;
+    padding: 0.75rem;
+}
+    
 .wrapper {
     width: 1280px;
 }
