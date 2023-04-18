@@ -34,7 +34,7 @@ If you would like to swap out images and content to showcase your work (which I 
 - Color values used in the layout: #0E1215, #FAFAFA #000 and white
 - You can choose font sizes (remember to set as rem)
 - You are also free to decide on margin and padding; just keep it consistent
-- Use of CSS Grid properties for a minimum of one element
+- Use of CSS Grid properties for a minimum of one element DONE
 - Use of CSS Flexbox properties for a minimum of one element DONE
 - Follow proper folder structure and naming conventions
 - Demonstrate semantic HTML using appropriate elements for your content
