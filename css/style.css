@@ -34,6 +34,13 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
+}
+
+
+
 .button > li {
     box-sizing: border-box;
     padding-left: 3rem;
@@ -52,9 +59,12 @@ a {
 .aboutme img {
     float: right;
     width: 550px;
-    margin-top: -3rem;
+    margin-top: -5rem;
     padding-right: 5rem;
     padding-left: 5rem;
+    padding-bottom: 5rem;
+    display: block;
+    
 }
 
 .aboutme p {
@@ -73,7 +83,7 @@ a {
 }
 .aboutme {
     box-sizing: border-box;
-    margin-top: 5rem;
+    margin-top: 7rem;
     margin-left: 5rem;
     margin-bottom: 5rem;
 }
@@ -115,7 +125,7 @@ a {
 .serbox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 26.5rem;
+    height: 25rem;
 }
 
 .services {
@@ -132,6 +142,7 @@ a {
 
 .services h3 {
     font-size: 1.56rem;
+    margin-top: 0;
 }
 
 .logocreate > a {
@@ -156,6 +167,11 @@ a {
 .mywork > p {
     margin-left: 18rem;
     margin-right: 18rem;
+}
+
+.mywork > h2 {
+    padding-top: 4.5rem;
+    font-size: 2.18rem;
 }
 
 .reviews {
