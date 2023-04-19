@@ -28,7 +28,9 @@ span {
     background-color: black;
     padding: 2rem;
 }
-a {
+
+a:link,
+a:visited {
     color: #ffffff;
     text-decoration: none;
 }
@@ -36,6 +38,10 @@ a {
 a:hover {
     color: rgb(0, 255, 255);
     text-decoration: underline;
+}
+
+a:active {
+    color: rgb(127, 146, 255);
 }
 
 .wrapper {
