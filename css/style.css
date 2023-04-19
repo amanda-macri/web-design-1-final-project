@@ -21,7 +21,13 @@ nav {
     justify-content: flex-end; 
 
 }
-
+span {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: black;
+    padding: 2rem;
+}
 a {
     color: #ffffff;
     text-decoration: none;
