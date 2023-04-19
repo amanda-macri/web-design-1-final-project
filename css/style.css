@@ -40,7 +40,6 @@ a:hover {
 }
 
 
-
 .button > li {
     box-sizing: border-box;
     padding-left: 3rem;
@@ -81,6 +80,7 @@ a:hover {
     font-size: 37px;
     margin: 0;
 }
+
 .aboutme {
     box-sizing: border-box;
     margin-top: 7rem;
@@ -161,12 +161,12 @@ a:hover {
    
 
 .mywork {
-    text-align: center;
+    text-align: center; 
 }
 
 .mywork > p {
-    margin-left: 18rem;
-    margin-right: 18rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 .mywork > h2 {
@@ -175,25 +175,32 @@ a:hover {
 }
 
 .reviews {
+    box-sizing: border-box;
     background-color: black;
     color: #ffffff;
+    padding: 4rem;
 }
 
-.oneres {
-    box-sizing: border-box;
-    margin: 5rem;
-    padding: 3rem;
+.onerev {
+    width: 49%;
+    height: auto;
+    text-align: center;
 }
 
-.twores {
-    box-sizing: border-box;
-    margin: 5rem;
-    padding: 3rem;
+.tworev {
+    width: 49%;
+    height: auto;
+    text-align: center;
 }
 
 .quotes {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .reviews > h2 {
@@ -216,8 +223,20 @@ a:hover {
     box-sizing: border-box;
     margin-top: 4rem;
     margin-bottom: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 76rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+.workimg > .firstline {
+    width: 38rem;
+    height: auto;
+}
+.workimg > .secondline {
+    width: 25.33333rem;
+    height: auto;
 }
 
 footer {
