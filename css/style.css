@@ -7,6 +7,11 @@ html {
 
 html {
     font-family: 'Open Sans', sans-serif;
+    margin: -1rem;
+}
+
+body {
+    margin: -1.5rem;
 }
 
 nav {
@@ -18,8 +23,8 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end; 
-
 }
+
 span {
     color: white;
     font-weight: bold;
@@ -50,34 +55,40 @@ a:active {
     margin-bottom: -1rem;
 }
 
+header {
+    background-color: #0E1215;
+}
 .navimg {
     width: 100%;
     display: block;
+    background-color: #0E1215;
 }
 
 .aboutme img {
     float: right;
-    width: 550px;
-    margin-top: -5rem;
-    padding-right: 5rem;
+    width: 39rem;
+    padding-right: 13rem;
     padding-left: 5rem;
-    padding-bottom: 5rem;
+    margin-bottom: 1rem;
     display: block; 
 }
 
 .aboutme p {
     box-sizing: border-box;
-    padding-right: 10rem;
-}
-
-.aboutme h1 {
-    font-size: 42px;
-    margin: 0;
+    padding-left: 8rem;
+    padding-right: 50rem;
 }
 
 .aboutme h2 {
-    font-size: 37px;
+    font-size: 2.625rem;
     margin: 0;
+    padding-left: 8rem;
+}
+
+.aboutme h3 {
+    font-size: 2.313rem;
+    margin: 0;
+    padding-left: 8rem;
 }
 
 .aboutme {
@@ -99,7 +110,7 @@ a:active {
     box-sizing: border-box;
     margin: 1rem;
     padding: 1rem;
-    border-radius: 2px;
+    border-radius: 0.125rem;
     background-color: #ffffff;
 }
 
@@ -107,7 +118,7 @@ a:active {
     box-sizing: border-box;
     margin: 1rem;
     padding: 1rem;
-    border-radius: 2px;
+    border-radius: 0.125rem;
     background-color:#ffffff;
     
 }
@@ -125,6 +136,8 @@ a:active {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 25rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 .services {
@@ -151,6 +164,7 @@ a:active {
 .webdes > a {
     margin-top: 1.35rem;
 }
+
 .logo figure {
     width: 1.87rem;
     display: inline-block;
@@ -158,7 +172,6 @@ a:active {
     margin-right: auto;
 }
    
-
 .mywork {
     text-align: center; 
 }
@@ -184,12 +197,16 @@ a:active {
     width: 49%;
     height: auto;
     text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .tworev {
     width: 49%;
     height: auto;
     text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .quotes {
@@ -197,6 +214,7 @@ a:active {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    padding-top: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1.5rem;
@@ -208,8 +226,8 @@ a:active {
 
 .motto {
     text-align: center;
-    margin-left: 18rem;
-    margin-right: 18rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
     padding-top: 4.5rem;
     margin-bottom: -.5rem;
 }
@@ -225,8 +243,8 @@ a:active {
     box-sizing: border-box;
     margin-top: 4rem;
     margin-bottom: 6rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 76rem;
     display: flex;
     flex-wrap: wrap;
@@ -243,6 +261,8 @@ a:active {
 
 .contactme > p {
     margin: 0;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .logo {
