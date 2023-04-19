@@ -18,19 +18,30 @@ nav {
     background-color:#0E1215;
     box-sizing: border-box;
     padding-right: 2rem;
-    padding-top: 0.5rem;
+    padding-top: 3.9rem;
     padding-bottom: 0.5rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end; 
 }
 
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 8rem;
+}
+
+.button {
+    font-size: 1.2rem;
+    margin-left: 3rem;
+}
+
 span {
-    color: white;
-    font-weight: bold;
     font-size: 2rem;
-    background-color: black;
-    padding: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-right: 29rem;
 }
 
 a:link,
@@ -58,44 +69,44 @@ a:active {
 header {
     background-color: #0E1215;
 }
+
 .navimg {
-    width: 100%;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     background-color: #0E1215;
 }
 
 .aboutme img {
+    margin-top: -3.25rem;
     float: right;
-    width: 39rem;
-    padding-right: 13rem;
-    padding-left: 5rem;
-    margin-bottom: 1rem;
+    width: 36rem;
+    padding-right: 3rem;
+    padding-left: 9rem;
     display: block; 
 }
 
 .aboutme p {
     box-sizing: border-box;
-    padding-left: 8rem;
-    padding-right: 50rem;
+    padding-right: 10rem;
 }
 
 .aboutme h2 {
     font-size: 2.625rem;
     margin: 0;
-    padding-left: 8rem;
 }
 
 .aboutme h3 {
     font-size: 2.313rem;
     margin: 0;
-    padding-left: 8rem;
 }
 
 .aboutme {
     box-sizing: border-box;
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-left: 5rem;
-    margin-bottom: 5rem;
+    padding-bottom: 6rem;
 }
 
 .logocreate {
@@ -158,11 +169,11 @@ header {
 }
 
 .logocreate > a {
-    margin-top: 2.8rem;
+    margin-top: 2.7rem;
 }
 
 .webdes > a {
-    margin-top: 1.35rem;
+    margin-top: 2.7rem;
 }
 
 .logo figure {
@@ -177,8 +188,8 @@ header {
 }
 
 .mywork > p {
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 28rem;
+    margin-right: 28rem;
 }
 
 .mywork > h2 {
@@ -197,16 +208,16 @@ header {
     width: 49%;
     height: auto;
     text-align: center;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 6rem;
+    padding-right: 1.75rem;
 }
 
 .tworev {
     width: 49%;
     height: auto;
     text-align: center;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1.75rem;
+    padding-right: 6rem;
 }
 
 .quotes {
